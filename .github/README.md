@@ -39,6 +39,7 @@ View the documentation for a [full list of credits](https://docs.comfig.app/late
 
 Valve, the Valve logo, Steam, the Steam logo, Team Fortress, the Team Fortress
 logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.
+All other trademarks are property of their respective owners in the US and other countries.
 
 mastercomfig is not sponsored, endorsed, licensed by, or affiliated with Valve Corporation.
 
