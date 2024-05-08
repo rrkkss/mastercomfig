@@ -45,7 +45,19 @@ Instead of `70` for `viewmodel_fov`, you can use any value you prefer.
 
 This is a bug with later versions of Mesa. You can fix it by adding `lighting_ex=high` to your `modules.cfg`.
 
-You can also configure the drirc file (optionally using the adriconf GUI) to set `disable_uniform_array_resize` to `true` for Team Fortress 2.
+You can also configure the ~/.drirc file to set `disable_uniform_array_resize` to `true` for Team Fortress 2 (or any program), such as:
+```c
+<driconf>
+    <device driver="XXXX">
+        <application name="Default">
+            <option name="disable_uniform_array_resize" value="true" />
+        </application>
+    </device>
+</driconf>
+```
+where you need to find your driver ID using for example `lspci -k | grep -E1 'VGA'` and looking for a 4 letter code (should be last).
+
+Or optionally using the adriconf GUI under `debugging` -> `disable the glsl optimization that resizes uniform arrays`.
 
 ## Ragdolls aren't instantly disappearing
 
